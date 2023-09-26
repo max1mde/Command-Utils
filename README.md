@@ -32,10 +32,10 @@ mkdir <name>
 ```
 
 ### Delete a file
+> You can use rm -r <directory> to delete a directory recursively
 ```
 rm <file-name>
 ```
-> You can use rm -r <directory> to delete a directory recursively
 
 ### View a file
 ```
