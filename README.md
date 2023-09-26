@@ -11,6 +11,8 @@
 # Table of contents
 
 - [Basics](#Basics)
+- [Nginx](#Nginx)
+- [Certbox](#Certbot-(For-HTTPS))
 
 # Basics
 
@@ -51,3 +53,43 @@ touch <file-name>
 ```
 cp -r /path/ /new/path/
 ```
+
+# [Nginx](https://de.wikipedia.org/wiki/Nginx)
+
+### Install
+```
+sudo apt update
+sudo apt install nginx
+```
+
+### Start
+```
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+
+### Status
+```
+sudo systemctl status nginx
+```
+
+### Restart
+```
+sudo systemctl restart nginx
+```
+
+# Certbot (For HTTPS)
+
+###Install
+```
+sudo apt update
+sudo apt install certbot python3-certbot-nginx
+```
+
+### Add domain and get a certificate for it
+> **Important**
+> The domain must point to your root servers IP
+```
+sudo certbot --nginx -d yourdomain.com
+```
+
