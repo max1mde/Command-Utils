@@ -13,6 +13,8 @@
 - [Basics](#Basics)
 - [Nginx](#Nginx)
 - [Certbot](#Certbot-(For-HTTPS))
+- [Compress folders](#Compress-folders)
+- [Upload a file to another server](#Upload-file)
 
 # Basics
 
@@ -93,3 +95,27 @@ sudo apt install certbot python3-certbot-nginx
 sudo certbot --nginx -d yourdomain.com
 ```
 
+# Compress folders
+> Compress files/folders to a tar.gz file
+One folder
+```
+tar -czvf archive.tar.gz /path/to/folder
+```
+Multiple folders
+```
+tar -czvf archive.tar.gz /path/to/folder1 /path/to/folder2 /path/to/folder3
+```
+
+### Exctract files/folders from tar.gz file
+```
+tar -xzf archive.tar.gz
+```
+
+# Upload file
+> In this example we are using the [generated tar.gz](Compress-folders)
+
+> **Note**  
+> You need the password for the <DestinationServerIP> to upload the file
+```
+scp -r /path/archive.tar.gz root@DestinationServerIP:/path
+```
