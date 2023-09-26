@@ -4,5 +4,5 @@
 </div>
 
 > **Warning**  
-> All commands are only tested on a Debian 12 machine
+> All commands are only tested on a Debian 12 machine  
 > so they might not work if you are using a different operating system
