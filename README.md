@@ -37,7 +37,7 @@ rm <file-name>
 ```
 > You can use rm -r <directory> to delete a directory recursively
 
-### View file
+### View a file
 ```
 cat <file-name>
 ```
