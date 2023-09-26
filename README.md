@@ -86,7 +86,7 @@ sudo apt update
 sudo apt install certbot python3-certbot-nginx
 ```
 
-### Add domain and get a certificate for it
+### Add a domain and get a certificate for it
 > **Important**
 > The domain must point to your root servers IP
 ```
