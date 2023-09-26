@@ -12,7 +12,7 @@
 
 - [Basics](#Basics)
 - [Nginx](#Nginx)
-- [Certbox](#Certbot-(For-HTTPS))
+- [Certbot](#Certbot-(For-HTTPS))
 
 # Basics
 
@@ -80,7 +80,7 @@ sudo systemctl restart nginx
 
 # Certbot (For HTTPS)
 
-###Install
+### Install
 ```
 sudo apt update
 sudo apt install certbot python3-certbot-nginx
