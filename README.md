@@ -112,7 +112,7 @@ tar -xzf archive.tar.gz
 ```
 
 # Upload file
-> In this example we are using the [generated tar.gz](Compress-folders)
+> In this example we are using the [generated tar.gz](#Compress-folders)
 
 > **Note**  
 > You need the password for the <DestinationServerIP> to upload the file
