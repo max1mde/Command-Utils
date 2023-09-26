@@ -1,5 +1,6 @@
 <div align="center">
-  <h1>Some useful commands if you are just setting up your new linux server</h1>
+  <h1>Command Utils</h1>
+  <p>Some useful commands if you are just setting up your new linux server</p>
 </div>
 
 > **Warning**  
