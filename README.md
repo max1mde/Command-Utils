@@ -28,7 +28,7 @@ htop
 ```
 cd <path>
 ```
-> You can use `cd ..` to go to the parent diretory
+> You can use `cd ..` to go to the parent diretory / go back
 
 ### Create a directory
 ```
