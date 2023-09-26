@@ -10,6 +10,8 @@
 
 # Table of contents
 
+- [Basics](#Basics)
+
 # Basics
 
 ### Show running prozesses and RAM, CPU ... usage
