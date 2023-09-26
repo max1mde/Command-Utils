@@ -12,7 +12,7 @@
 
 - [Basics](#Basics)
 - [Nginx](#Nginx)
-- [Certbot](#Certbot-(For-HTTPS))
+- [Certbot (For-HTTPS)](#Certbot)
 - [Compress folders](#Compress-folders)
 - [Upload a file to another server](#Upload-file)
 
@@ -80,8 +80,8 @@ sudo systemctl status nginx
 sudo systemctl restart nginx
 ```
 
-# Certbot (For HTTPS)
-
+# Certbot
+> For a https connection
 ### Install
 ```
 sudo apt update
