@@ -115,7 +115,7 @@ tar -xzf archive.tar.gz
 > In this example we are using the [generated tar.gz](#Compress-folders)
 
 > **Note**  
-> You need the password for the <DestinationServerIP> to upload the file
+> You need the password for the `<DestinationServerIP>` to upload the file
 ```
 scp -r /path/archive.tar.gz root@DestinationServerIP:/path
 ```
