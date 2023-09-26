@@ -97,6 +97,7 @@ sudo certbot --nginx -d yourdomain.com
 
 # Compress folders
 > Compress files/folders to a tar.gz file
+
 One folder
 ```
 tar -czvf archive.tar.gz /path/to/folder
