@@ -3,7 +3,7 @@
   <p>Some useful commands if you are <b>not</b> that familiar with linux and just want to setup a new linux server</p>
 </div>
 
-> **Warning**  
+> [!NOTE]  
 > All commands are only tested on a Debian 12 machine  
 > so they might not work if you are using a different operating system
 
