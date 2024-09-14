@@ -120,3 +120,28 @@ tar -xzf archive.tar.gz
 ```
 scp -r /path/archive.tar.gz root@DestinationServerIP:/path
 ```
+
+
+# Install JDK 21
+```
+wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.tar.gz 
+tar -xvf jdk-21_linux-x64_bin.tar.gz 
+mv jdk-21.0.4/ /opt/
+```
+
+```
+sudo nano /etc/profile.d/jdk.sh
+```
+
+Add lines:
+```
+export JAVA_HOME=/opt/jdk-21.0.4
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+Close & save file
+
+```
+source /etc/profile.d/jdk.sh
+```
+
